@@ -39,15 +39,4 @@ subset = df[['Name', 'Age']]
 adults = df[df['Age'] >= 30]
 ```
 
-## Data Manipulation
-
-```
-# Add a new column
-df['Occupation'] = ['Analyst', 'Engineer', 'Designer']
-# Change values in a column
-df.loc[df['Name'] == 'Alice', 'Occupation'] = 'Manager'
-# Filter rows based on a condition
-filtered_df = df[df['Occupation'] != 'Designer']
-```
-
 
